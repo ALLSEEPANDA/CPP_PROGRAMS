@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
-
 using namespace std;
+
 inline int square(int x) {
     return x * x;
 }

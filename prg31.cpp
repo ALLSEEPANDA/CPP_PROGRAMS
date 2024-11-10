@@ -2,7 +2,7 @@
 
 class Shape {
 public:
-    virtual void draw() = 0; // Pure virtual function
+    virtual void draw() = 0;
 };
 
 class Circle : public Shape {

@@ -32,15 +32,15 @@ int main() {
     Vector v1(3, 4);
     Vector v2(1, 2);
 
-    v1 += v2; // Using overloaded +=
+    v1 += v2; 
     std::cout << "After v1 += v2: ";
     v1.display();
 
-    v1 -= v2; // Using overloaded -=
+    v1 -= v2;
     std::cout << "After v1 -= v2: ";
     v1.display();
 
-    Vector v3 = v1(2); // Using overloaded ()
+    Vector v3 = v1(2);
     std::cout << "After scaling v1 by 2: ";
     v3.display();
 
